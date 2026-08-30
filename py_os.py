@@ -38,6 +38,7 @@ def nuevo(num):
     
 
 def formatear():
+    global txt
     wi=input("Estas seguro?[SI]o[NO]")
     if wi=="SI":
         txt=[0] * 10000

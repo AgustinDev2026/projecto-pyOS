@@ -46,11 +46,13 @@ def formatear():
 def borrar():
   ire=int(input("ID del archivo que desea borrar: "))
   txt[ire]=0
+    
 def ls():
-    for cl in range(len(txt)):
-        print(cl, txt[cl])
-   
-  
+    for cl in range(txt(len)):
+        if txt[cl]!=0:
+            print("/ ID  / TXT")
+            print("/",cl, txt[cl],"/")
+            
 while True:
     en=input("usuario@AgusOS(Núcleo)#")
     if en=="c":

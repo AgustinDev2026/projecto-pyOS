@@ -46,6 +46,9 @@ def formatear():
 def borrar():
   ire=int(input("ID del archivo que desea borrar: "))
   txt[ire]=0
+def ls():
+    for cl in range(len(txt)):
+        print(cl, txt[cl])
    
   
 while True:
@@ -64,4 +67,6 @@ while True:
         menu()
     elif en=="borrar":
       borrar()
+    elif en=="ls"
+      ls()
       

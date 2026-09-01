@@ -48,10 +48,10 @@ def borrar():
   txt[ire]=0
     
 def ls():
-    for cl in range(txt(len)):
+    for cl in range(10000):
         if txt[cl]!=0:
-            print("/ ID  / TXT")
-            print("/",cl, txt[cl],"/")
+            print("/ ID  / TXT/")
+            print("/",cl,  "/",txt[cl],"/")
             
 while True:
     en=input("usuario@AgusOS(Núcleo)#")
@@ -69,6 +69,7 @@ while True:
         menu()
     elif en=="borrar":
       borrar()
-    elif en=="ls"
+    elif en=="ls":
       ls()
       
+
